@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".activity.MainActivity">
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/navHostFragment"
+        android:name="com.min.b_module_test.fragment.MainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
