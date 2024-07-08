@@ -107,7 +107,7 @@
             android:orientation="vertical">
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rl_main_item"
+                android:id="@+id/main_rl_item"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -203,12 +203,12 @@
             </RelativeLayout>
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rl_main_bot"
+                android:id="@+id/main_rl_bot"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
                 android:layout_marginTop="15dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"/>
+                android:layout_marginEnd="5dp" />
 
 
         </LinearLayout>
