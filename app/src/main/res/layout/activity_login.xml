@@ -112,7 +112,7 @@
                 android:backgroundTint="@color/blue"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
-                android:text="Sing In"
+                android:text="login"
                 android:textAllCaps="false"
                 android:textSize="20sp"
                 app:cornerRadius="10dp"
